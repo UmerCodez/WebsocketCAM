@@ -14,7 +14,7 @@
 
 </div>
 
-The app broadcasts live camera frames as JPEG images over WebSocket connections, allowing multiple clients to connect concurrently and perform AI or computer vision processing in parallel.
+The app broadcasts live camera frames as **JPEG** images over WebSocket connections, allowing multiple clients to connect concurrently and perform AI or computer vision processing in parallel.
 
 ## Displaying live camera stream using Python
 A simple Python example using OpenCV and WebSocket libraries to connect to the WebSocket CAM app and display the live camera stream.
