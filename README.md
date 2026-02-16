@@ -19,6 +19,10 @@ The app broadcasts live camera frames as **JPEG** images over WebSocket connecti
 ## Displaying live camera stream using Python
 A simple Python example using OpenCV and WebSocket libraries to connect to the WebSocket CAM app and display the live camera stream.
 
+```bash
+pip install opencv-python numpy websocket-client
+```
+
 ```python
 import cv2
 import numpy as np
