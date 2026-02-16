@@ -1,0 +1,1 @@
+Easily access your device’s camera using a WebSocket client API to perform real-time AI and computer vision tasks on a live video stream.

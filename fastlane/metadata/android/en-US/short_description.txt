@@ -1,0 +1,1 @@
+Access Android camera via Websocket client API
