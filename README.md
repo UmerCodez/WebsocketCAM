@@ -75,6 +75,6 @@ if __name__ == "__main__":
 Start the WebSocket server in the app, then run the this Python script in multiple terminals to view multiple live streams simultaneously
 
 ### Examples
-Examples such as object detection,hand keypoint detection and pose detection are available at [WebsocketCAM examples](https://github.com/UmerCodez/WebsocketCAM-examples)
+Working examples of this app are availbe here [WebsocketCAM examples](https://github.com/UmerCodez/WebsocketCAM-examples)
 
 ![Alt Text](https://github.com/UmerCodez/WebsocketCAM-examples/blob/main/assets/hand-keypoint-detection.gif)
