@@ -54,7 +54,6 @@ def on_open(ws):
     print("Connected to Websocket CAM, open camera to see live stream")
 
 if __name__ == "__main__":
-    # Ensure OpenCV windows don't freeze the thread
     websocket.enableTrace(False)
     ws = websocket.WebSocketApp(
         SERVER_URL,
