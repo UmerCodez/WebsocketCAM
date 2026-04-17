@@ -8,7 +8,7 @@
 
 [<img src="https://github.com/UmerCodez/WebsocketCAM/blob/main/assets/gio-github.png" height="80">](https://github.com/UmerCodez/WebsocketCAM/releases) [<img src="https://github.com/UmerCodez/WebsocketCAM/blob/main/assets/gio-fdroid.png" height="80">](https://f-droid.org/packages/app.umerfarooq.websocketcam/) [<img src="https://github.com/UmerCodez/WebsocketCAM/blob/main/assets/gio-obtainium.png" height="80">](https://github.com/ImranR98/Obtainium)
 
-### Easily access your device’s camera using a WebSocket client API to perform real-time AI and computer vision tasks on a live video stream.
+### Access Android camera using a WebSocket client API to perform real-time AI and computer vision tasks on a live video stream.
 
 <img src="https://github.com/UmerCodez/WebsocketCAM/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg" width="250" heigth="250"> <img src="https://github.com/UmerCodez/WebsocketCAM/blob/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg" width="250" heigth="250"> 
 
