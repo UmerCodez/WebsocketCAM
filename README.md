@@ -71,7 +71,12 @@ if __name__ == "__main__":
         cv2.destroyAllWindows()
 ```
 
-Start the WebSocket server in the app, then run the this Python script in multiple terminals to view multiple live streams simultaneously
+Start the WebSocket server in the app, then run the this Python script in **multiple terminals** to view **multiple live streams** simultaneously
+
+## Demo (Youtube)
+See the demo on Youtube 👇
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/OIhSXAkaWBA/0.jpg)](https://www.youtube.com/watch?v=OIhSXAkaWBA)
 
 ### Examples
 Working examples of this app are availbe here [WebsocketCAM examples](https://github.com/UmerCodez/WebsocketCAM-examples)
