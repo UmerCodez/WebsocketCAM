@@ -81,4 +81,5 @@ See the demo on Youtube 👇
 ### Examples
 Working examples of this app are availbe here [WebsocketCAM examples](https://github.com/UmerCodez/WebsocketCAM-examples)
 
-![Alt Text](https://github.com/UmerCodez/WebsocketCAM-examples/blob/main/assets/hand-keypoint-detection.gif)
+![Alt Text](https://github.com/UmerCodez/WebsocketCAM-examples/blob/main/assets/hand-keypoint-detection.gif) ![Alt Text](https://github.com/UmerCodez/WebsocketCAM-examples/blob/main/assets/Object-Detection.gif) ![Alt Text](https://github.com/UmerCodez/WebsocketCAM-examples/blob/main/assets/pose-detection.gif)
+
