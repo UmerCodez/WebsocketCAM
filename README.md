@@ -14,7 +14,8 @@
 
 </div>
 
-The app broadcasts live camera frames as **JPEG** images over WebSocket connections, allowing multiple clients to connect concurrently and perform AI or computer vision processing in parallel.
+The app broadcasts live camera frames as **JPEG** images over WebSocket connections, where each **JPEG** image is received as a **byte array** through the WebSocket’s `onMessage` callback. The app supports multiple client connections, enabling each client to independently perform AI or computer vision processing in parallel.
+
 
 ## Displaying live camera stream using Python
 A simple Python example using OpenCV and WebSocket libraries to connect to the WebSocket CAM app and display the live camera stream.
@@ -33,6 +34,8 @@ SERVER_URL = "ws://192.168.18.50:8080"
 def on_message(ws, message):
     # Convert received bytes into numpy array
     np_arr = np.frombuffer(message, np.uint8)
+
+    # Decode JPEG
     frame = cv2.imdecode(np_arr, cv2.IMREAD_COLOR)
 
     if frame is not None:
