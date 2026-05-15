@@ -80,7 +80,6 @@ fun CameraSettingsScreen(
             var showResolutions by remember { mutableStateOf(false) }
             val resolutions = remember {
                 listOf(
-                    CameraResolution(160, 120),   // Low bandwidth
                     CameraResolution(224, 224),
                     CameraResolution(320, 240),   // Low-mid
                     CameraResolution(416, 416),   // YOLO
