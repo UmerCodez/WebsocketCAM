@@ -45,7 +45,6 @@ import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
-import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
@@ -88,7 +87,7 @@ private val navItems = listOf(NavItem.CameraSettings, NavItem.Server)
 fun Navigation() {
 
     // Create a back stack, specifying the key the app should start with
-    val backStack = rememberSaveable { mutableStateListOf<Any>(NavKey.CameraSettingsScreen) }
+    val backStack = remember { mutableStateListOf<Any>(NavKey.CameraSettingsScreen) }
     var selectedNavItemIndex by remember { mutableIntStateOf(navItems.indexOf(NavItem.CameraSettings)) }
     var showBottomBar by remember { mutableStateOf(true) }
     var showTopBar by remember { mutableStateOf(true) }
