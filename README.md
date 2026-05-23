@@ -16,6 +16,12 @@
 
 The app broadcasts live camera frames as **JPEG** images over WebSocket connections, where each **JPEG** image is received as a **byte array** through the WebSocket’s `onMessage` callback. The app supports multiple client connections, enabling each client to independently perform AI or computer vision processing in parallel.
 
+### Features
+- Supports multiple websocket client connections
+- Change camera settings without restarting the Websocket Server
+- Access the live feed directly from a browser over the local network (LAN)
+- No ads, no tracking and no data collection
+
 
 ## Displaying live camera stream using Python
 A simple Python example using OpenCV and WebSocket libraries to connect to the WebSocket CAM app and display the live camera stream.
