@@ -19,7 +19,7 @@ The app broadcasts live camera frames as **JPEG** images over WebSocket connecti
 ### Features
 - Supports multiple websocket client connections
 - Change camera settings without restarting the Websocket Server
-- Access the live feed directly from a browser over the local network (LAN)
+- Access the live feed directly from a browser over the local network via browser's websocket client API (not browser's address bar)
 - No ads, no tracking and no data collection
 
 
