@@ -8,13 +8,13 @@ plugins {
 android {
     namespace = "app.umerfarooq.websocketcam"
     compileSdk {
-        version = release(36)
+        version = release(37)
     }
 
     defaultConfig {
         applicationId = "app.umerfarooq.websocketcam"
         minSdk = 24
-        targetSdk = 36
+        targetSdk = 37
         versionCode = 6
         versionName = "1.3.1"
 
